@@ -1,0 +1,129 @@
+body{
+  /* background-color: cadetblue; */
+}
+
+.container {
+  margin: 100px;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 10px 10px 15px 5px rgba(0, 0, 0, 0.2);
+}
+
+h1{
+  font-stretch: expanded;
+  font-variant-caps: small-caps;
+}
+
+.display-rgb{
+  margin-left: 31%;;
+  width: 500px;
+  height: 60px;
+  border: 1px solid black;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 20px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+}
+
+.slidders{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 20px;
+  padding-left: 80px;
+}
+
+div{
+  display: flex;
+  flex-direction: column;
+}
+
+.slidder{
+  margin-right: 50px;
+}
+
+
+.red {
+  -webkit-appearance: none;
+  appearance: none;
+  background: lightcoral; /* Track color */
+  outline: none;
+  border-radius: 10px;
+  width: 100%;
+  height: 8px; /* Adjust track height */
+}
+
+.red::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px; /* Thumb size */
+  height: 20px;
+  background: red; /* Thumb color */
+  border-radius: 50%; /* Rounded thumb */
+  cursor: pointer;
+}
+
+.red::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  background: red;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.green {
+  -webkit-appearance: none;
+  appearance: none;
+  background: lightgreen;
+  outline: none;
+  border-radius: 10px;
+  width: 100%;
+  height: 8px;
+}
+
+.green::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background: green;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.green::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  background: green;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.blue {
+  -webkit-appearance: none;
+  appearance: none;
+  background: lightskyblue;
+  outline: none;
+  border-radius: 10px;
+  width: 100%;
+  height: 8px;
+}
+
+.blue::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background: blue;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.blue::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  background: blue;
+  border-radius: 50%;
+  cursor: pointer;
+}
